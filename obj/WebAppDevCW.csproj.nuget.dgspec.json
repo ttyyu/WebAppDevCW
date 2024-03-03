@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tyrellyu/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj": {}
+    "/Users/tyrellyu/Documents/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj": {}
   },
   "projects": {
-    "/Users/tyrellyu/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj": {
+    "/Users/tyrellyu/Documents/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tyrellyu/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj",
+        "projectUniqueName": "/Users/tyrellyu/Documents/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj",
         "projectName": "WebAppDevCW",
-        "projectPath": "/Users/tyrellyu/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj",
+        "projectPath": "/Users/tyrellyu/Documents/DotNetProjects/WebAppDevCW/WebAppDevCW.csproj",
         "packagesPath": "/Users/tyrellyu/.nuget/packages/",
-        "outputPath": "/Users/tyrellyu/DotNetProjects/WebAppDevCW/obj/",
+        "outputPath": "/Users/tyrellyu/Documents/DotNetProjects/WebAppDevCW/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tyrellyu/.nuget/NuGet/NuGet.Config"
@@ -44,6 +44,20 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
             },
